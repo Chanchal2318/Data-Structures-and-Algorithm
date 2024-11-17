@@ -1,0 +1,93 @@
+1. Introduction to Java
+   Java ek high-level, object-oriented programming language hai. Ye platform-independent hoti hai kyunki Java 
+   Virtual Machine (JVM) pe run hoti hai. Java ko enterprise applications, web applications, aur Android apps 
+   banane ke liye use kiya jata hai.
+
+2. Features of Java
+   - Simple: Java ko likhna aur samajhna easy hai.
+   - Object-Oriented: Java ka focus objects aur classes pe hota hai.
+   - Portable: Ek baar code likhne ke baad, different platforms pe chalaya ja sakta hai.
+   - Platform-Independent: Java ka code kisi bhi operating system pe JVM ke through run ho sakta hai.
+   - Secured: Java me secure programming practices ko follow kiya jata hai.
+   - Robust: Java bugs ko handle karne ke liye exception handling aur memory management provide karta hai.
+   - Multithreaded: Ek program me multiple threads ko run karne ki capability hoti hai.
+   - Architecture Neutral: Java kisi bhi architecture ke liye compatible hota hai.
+
+3. Data Types in Java
+   Java me do tarah ke data types hote hain:
+   - Primitive Types: int, float, double, boolean, char, byte, short, long.
+   - Reference Types: Classes, Interfaces, Arrays.
+
+4. Operators in Java
+   Java me alag-alag operations ke liye operators hote hain:
+   - Arithmetic Operators: +, -, *, /, % (mathematical operations ke liye).
+   - Relational Operators: ==, !=, >, <, >=, <= (compare karne ke liye).
+   - Logical Operators: && (AND), || (OR), ! (NOT).
+   - Assignment Operators: =, +=, -=, *=, /=, %=.
+   - Increment/Decrement: ++, --.
+
+5. Control Statements
+   - Conditional: if, if-else, nested if, switch (conditions ke liye).
+   - Loops: for, while, do-while (repeated execution ke liye).
+   - Break and continue: Loop me control flow ko rokne ya continue karne ke liye.
+
+6. Classes and Objects
+   - Class ek blueprint hoti hai jisme variables aur methods define kiye jate hain.
+   - Object ek instance hota hai class ka. Syntax:
+     class ClassName {
+         // fields
+         // methods
+     }
+
+7. Constructors
+   - Special methods jo objects ko initialize karte hain.
+   - Constructors ka naam class ke naam jaisa hota hai aur return type nahi hota.
+
+8. Inheritance
+   - Inheritance ek class ko doosri class se properties aur methods inherit karne deti hai.
+   - Types: Single, Multilevel, Hierarchical.
+   - 'extends' keyword ka use hota hai.
+
+9. Polymorphism
+   - Ek task ko multiple ways me karne ki ability.
+   - Types: 
+     1. Compile-time Polymorphism (Method Overloading).
+     2. Runtime Polymorphism (Method Overriding).
+
+10. Abstraction
+    - Implementation details ko hide karna aur sirf essential details ko expose karna.
+    - Abstract Classes aur Interfaces ke through achieve kiya jata hai.
+
+11. Encapsulation
+    - Data aur methods ko ek single unit (class) me wrap karna.
+    - Variables ko private rakhte hain aur public getter aur setter methods provide karte hain.
+
+12. Exception Handling
+    - Runtime errors ko handle karne ka mechanism.
+    - Keywords: try, catch, finally, throw, throws.
+
+13. Packages
+    - Namespace jo classes aur interfaces ko organize karta hai.
+    - 'package' keyword ka use hota hai.
+
+14. Multithreading
+    - Java me ek program me multiple threads ko simultaneously run karne ki capability hoti hai.
+    - 'Thread' class aur 'Runnable' interface ka use hota hai.
+
+15. File Handling in Java
+    - File se related operations ke liye classes: File, FileReader, FileWriter, BufferedReader, BufferedWriter.
+    - Exception handling me try, catch, finally ka use.
+
+16. Java Collections Framework
+    - Different data structures provide karta hai jo groups of data ko store aur manipulate karne ke liye use hote hain.
+    - Interfaces: List, Set, Map.
+    - Implementations: ArrayList, LinkedList, HashSet, TreeSet, HashMap.
+
+17. JDBC (Java Database Connectivity)
+    - Database ke saath queries execute karne ke liye API.
+    - Steps:
+      1. Driver class ko load karna.
+      2. Connection create karna.
+      3. Statement create karna.
+      4. Queries execute karna.
+      5. Connection close karna.
